@@ -2,19 +2,18 @@ import Link from "next/link";
 
 export default function NavigationBar() {
   return (
-    <nav className="bg-blue-400 p-4">
+    <nav className="bg-pink-400 p-4">
         <div className="border border-blue-300 p-4 rounded-lg">
             <div className="space-x-4">
-                <Link href="/about">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 transition duration-300 ease-in-out transform hover:scale-105">
-                        About Us
-                    </button>
-                </Link>
-                <Link href="/contacts">
-                    <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 transition duration-300 ease-in-out transform hover:scale-105">
-                        Contacts
-                    </button>
-                </Link>
+                <aside class="w-64 bg-gray-800 text-white p-4">
+                    <h2 class="text-2xl font-semibold">Sidebar</h2>
+                    <ul class="mt-4 space-y-2">
+                    <li><a href="/about" class="hover:text-blue-400">About us</a></li>
+                    <li><a href="/contacts"class="hover:text-blue-400">Contatcts</a></li>
+                    <li><a href="/home" class="hover:text-blue-400">Home</a></li>
+                    <li><a href="/login" class="hover:text-blue-400">Login</a></li>
+                    </ul>
+                </aside>
             </div>
         </div>
     </nav>
