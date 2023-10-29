@@ -1,13 +1,10 @@
 import Link from "next/link";
-import NavigationBar from "../component/navbar";
-import Header from '../component/header';
-import Footer from '../component/footer';
 
 export default function login() {
 
   return (
     <div>
-        <div className="bg-blue-900 h-screen flex flex-col justify-center items-center">
+        <div className="bg-blue-900 h-screen flex flex-col justify-center items-center bg-cover bg-center">
             <h1 className="text-3xl font-bold text-gray-100 mb-4">Login</h1>
             <div className="border border-gray-300 p-4 rounded-lg">
             <p className="text-blue-300 font-bold">Enter Username :</p>

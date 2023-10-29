@@ -19,9 +19,6 @@ export default function createAccount() {
                     Create Account
                 </button>
             </Link>
-            <div class="w-64 h-64 mx-auto">
-                <img src="your-image.jpg" alt="Your Image" class="w-full h-full object-cover" />
-            </div>
         </div>
     </div>
   )
