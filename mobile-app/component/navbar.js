@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Header from '../component/header';
+import Footer from '../component/footer';
 
 export default function NavigationBar() {
   return (
@@ -11,7 +13,7 @@ export default function NavigationBar() {
                     <li><a href="/about" class="hover:text-blue-400">About us</a></li>
                     <li><a href="/contacts"class="hover:text-blue-400">Contatcts</a></li>
                     <li><a href="/home" class="hover:text-blue-400">Home</a></li>
-                    <li><a href="/login" class="hover:text-blue-400">Login</a></li>
+                    <li><a href="/login" class="hover:text-blue-400">login</a></li>
                     </ul>
                 </aside>
             </div>
