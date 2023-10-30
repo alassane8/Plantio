@@ -1,5 +1,3 @@
-## Mobile app
-
 <h1 align="center">
   Alassane WADE 1st Mobile-App
 </h1>
@@ -9,33 +7,43 @@
 <img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Mobile-App/blob/main/mobile-app/Capture.PNG">
 
 In this repsitory, you have access to the battlshimy first mobile application that I developped using, HTML, CSS, JavaScript and Next.js.
+# Instructions 
+To use the Mobile-App follow the instructions below:
 
-## Part 1. Initialize the Next.js application (easy level)
+## 1. Install Visual Studio Code
+If you haven't already installed Visual Studio Code, you can download it from the official website: https://code.visualstudio.com/.
 
-> Install [`npx`](https://www.npmjs.com/package/npx) if it is not yet installed.
+## 2. Install Mobile View
+If you haven't already installed Mobile View, you can download it from Visual Studio Code using the Extensions (Ctrl+Shift+X) and type MobileView in the search bar.
+For more informations, follow this link: https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview
 
-Initialize a Next.js application by following [this guide](https://nextjs.org/docs/getting-started) to start. Under your repository root, run the `npx create-next-app@latest` and name your application as `app`. It must create the `app` folder.
-
+## 3. Getting Started
+- Clone this github repository on the path of your choice: 
 ```bash
-npm init -y
-npm install -g npx
-npx create-next-app@latest
+git clone https://github.com/alassane8/Mobile-App.git
 ```
-
-typescript no
-eslint yes
-tailwindcss yes
-src/'directory no
-App Router yes
-import alias no
-
-
-## Part 2. Build a website skeleton
-
-1. Learn [React components](https://reactjs.org/docs/components-and-props.html), [Next.js pages](https://nextjs.org/docs/basic-features/pages) and [Next.js routing](https://nextjs.org/docs/routing/introduction) to continue with the next steps.
-
-
-## Part 3. Build dynamic routes (medium level)
-
-1. Learn [dynamic routing](https://nextjs.org/docs/routing/dynamic-routes) in Next.js.
-implement the home.js file
+- Go to the Mobile-App repository :
+```bash
+cd Mobile-App/
+```
+- Go to the mobile-app folder :
+```bash
+cd mobile-app/
+```
+- Open Visual Studio Code:
+```bash
+code .
+```
+- Run the following command (Make sure you opened Visual Studio Code before runnig those commands) :
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+- Go to the Visual Studio Code page previously opened :
+You can click on the "phone" icon in the left sibebar tray. Once you have done that, you will see a menu open, then click on "Use iPhone X" from the menu. You'll now see a text input box open.
+Enter the url [http://localhost:3000/home](http://localhost:3000/home) and press "Enter".
