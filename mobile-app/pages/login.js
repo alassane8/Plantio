@@ -1,23 +1,31 @@
 import Link from "next/link";
+import Header from '../component/header';
+import Image from 'next/image';
+import profilePic from 'images/pdp.png';
+import UserInput from '../component/userInput';
 
 export default function login() {
-
   return (
-    <div>
-        <div className="bg-blue-900 h-screen flex flex-col justify-center items-center bg-cover bg-center">
-            <h1 className="text-3xl font-bold text-gray-100 mb-4">Login</h1>
-            <div className="border border-gray-300 p-4 rounded-lg">
-            <p className="text-blue-300 font-bold">Enter Username :</p>
-            </div> 
-            <div className="border border-gray-300 p-4 rounded-lg">
-            <p className="text-blue-300 font-bold">Enter Password :</p>
-            </div> 
-            <Link href="/createAccount">
-              <button className="hover:bg-blue-600 text-white font-bold py-2 px-2 mt-4 rounded-full transition duration-500 ease-in-out transform hover:scale-105">
-                Create Account...
-              </button>
-            </Link>
-        </div>
-    </div>
+    <div className ="bg-gray-600 absolute inset-0 h-screen flex flex-col">
+      <Link href="/home">
+        <button className ="hover:bg-pink-400 text-white font-bold py-2 px-2 mt-4 rounded-full transition duration-500 ease-in-out transform hover:scale-105">
+          home
+        </button>
+      </Link>
+      <div className ="bg-grey-600  h-screen flex flex-col justify-center items-center">
+        <Image src={profilePic} alt="" />
+        <div className ="border border-gray-300 p-4 rounded-lg">
+          <p className ="text-gray-100 text-s font-bold">Enter Username :</p>
+            <UserInput />
+          <p className ="text-gray-100 text-s font-bold">Enter Password :</p>
+            <UserInput />
+        </div> 
+        <Link href="/createAccount">
+          <button className ="hover:bg-pink-400 text-white font-bold py-2 px-2 mt-4 rounded-full transition duration-500 ease-in-out transform hover:scale-105">
+            login
+          </button>
+        </Link>
+      </div>
+  </div>
   )
 }
