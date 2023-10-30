@@ -6,7 +6,7 @@
 
 "⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿ "
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Mobile-App/blob/main/mobile-app/IMG_4854.PNG">
+<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Mobile-App/blob/main/mobile-app/Capture.PNG">
 
 In this repsitory, you have access to the battlshimy first mobile application that I developped using, HTML, CSS, JavaScript and Next.js.
 
