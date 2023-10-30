@@ -38,3 +38,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Part 1. Initialize the Next.js application (easy level)
+
+> Install [`npx`](https://www.npmjs.com/package/npx) if it is not yet installed.
+
+Initialize a Next.js application by following [this guide](https://nextjs.org/docs/getting-started) to start. Under your repository root, run the `npx create-next-app@latest` and name your application as `app`. It must create the `app` folder.
+
+```bash
+npm init -y
+npm install -g npx
+npx create-next-app@latest
+```
+
+typescript no
+eslint yes
+tailwindcss yes
+src/'directory no
+App Router yes
+import alias no
