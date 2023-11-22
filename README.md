@@ -4,9 +4,8 @@
 
 "⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿ "
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Mobile-App/blob/main/mobile-app/Capture.PNG">
+In this repsitory, you have access to my first mobile application. Plantio is an application that allows the user to check the satte of it's plants. 
 
-In this repsitory, you have access to the battlshimy first mobile application that I developped using, HTML, CSS, JavaScript and Next.js.
 # Instructions 
 To use the Mobile-App follow the instructions below:
 
