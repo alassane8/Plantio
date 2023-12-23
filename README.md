@@ -1,8 +1,10 @@
 <h1 align="center">
   Alassane WADE 1st Mobile-App
 </h1>
-
+  
+<h2 align="center">
 "⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿ "
+</h2>   
 
 In this repsitory, you have access to my first mobile application. Plantio is an application that allows the user to check the satte of it's plants. 
 
