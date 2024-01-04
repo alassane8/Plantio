@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from 'next/image';
 import profilePic from 'images/pdp.png';
-import Header from '../component/header';
-import UserInput from '../component/userInput';
-import NavigationBar from "../component/navbar";
+import Header from '../components/Header';
+import UserInput from '../components/userInput';
+import NavigationBar from "../components/navbar";
 
 export default function createAccount() {
   return (
